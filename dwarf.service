@@ -1,0 +1,12 @@
+[Unit]
+Description=OpenStack API on top of libvirt/kvm
+After=network.target libvirtd.service
+
+[Service]
+Type=simple
+User=dwarf
+ExecStart=/usr/bin/dwarf
+
+[Install]
+WantedBy=multi-user.target
+
