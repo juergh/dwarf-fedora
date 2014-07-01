@@ -4,4 +4,4 @@ dwarf-fedora
 Fedora packaging files for Dwarf.
 
 Prebuilt packages:
-Fedora:
+Fedora: http://copr.fedoraproject.org/coprs/juergh/dwarf
